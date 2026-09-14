@@ -1,0 +1,303 @@
+{
+  "name": "Prakash",
+  "role": "Software Engineer",
+  "company": "Enterprise Software Product Team",
+  "tagline": "I build scalable web applications, APIs, and AI-powered features using .NET and modern full-stack technologies.",
+  "summary": "Software Engineer with 2+ years of experience building and enhancing enterprise web applications using C#, ASP.NET, ASP.NET Core Web API, SQL Server, Oracle, JavaScript, React, and AI integrations. Experienced in backend development, API integration, database optimization, application performance, and VAPT remediation.",
+  "location": "Mumbai, India",
+  "email": "prakashsinghandi75@gmail.com",
+  "links": {
+    "github": "https://github.com/prakashsingit",
+    "linkedin": "https://linkedin.com/in/prakash-singh-282492188",
+    "resume": "/resume.pdf"
+  },
+  "stack": {
+    "languages": [
+      "C#",
+      "Python",
+      "JavaScript",
+      "SQL",
+      "PL/SQL"
+    ],
+    "backend": [
+      ".NET Core",
+      "ASP.NET Core Web API"
+    ],
+    "frontend": [
+      "React",
+      "HTML/CSS"
+    ],
+    "databases": [
+      "SQL Server",
+      "Oracle"
+    ],
+    "focusAreas": [
+      ".NET Development",
+      "Backend & APIs",
+      "Applied AI",
+      "Vulnerability Assessment and Penetration Testing (VAPT)"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "org": "Enterprise Meeting & Collaboration Platform",
+      "period": "Jul 2024 — Present",
+      "points": [
+        "Built and enhanced enterprise web application modules using C#, ASP.NET Core, JavaScript/jQuery, Bootstrap, and SQL Server/Oracle.",
+        "Worked with React-based forms and portals, including API integration, validation, response mapping, and user-friendly error handling.",
+        "Implemented API security controls including authentication/authorization checks, request validation, token handling, and protection of sensitive backend operations.",
+        "Added API and upload rate-limiting controls to reduce abuse and repeated requests without requiring unnecessary database changes.",
+        "Improved authentication security through failed-login tracking, account lockout, CAPTCHA-attempt handling, generic error responses, and audit-friendly login information.",
+        "Worked on session-hijacking prevention using secure cookie settings, session ID regeneration, SameSite/HttpOnly/Secure controls, and session consistency checks.",
+        "Investigated slow dashboards by measuring database, stored procedure, backend, AJAX, and frontend processing time; then worked on query and data-processing improvements.",
+        "Converted and tuned SQL Server logic for Oracle, including stored procedures, date handling, data-type conversions, joins, CTEs, and Oracle-specific error resolution.",
+        "Integrated AI capabilities into application workflows and built supporting services for AI chat and transcription experiences.",
+        "Remediated VAPT findings involving security headers, CSP, HSTS, CORS, mixed content, content injection, request filtering, and cookie/session hardening."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Information Technology",
+      "school": "Thakur College of Engineering and Technology",
+      "period": "Dec 2021 — Jun 2024"
+    },
+    {
+      "degree": "Diploma in Information Technology",
+      "school": "Thakur Polytechnic",
+      "period": ""
+    }
+  ],
+  "projects": [
+    {
+  "name": "Dess Digital Meetings — Enterprise Meeting & Collaboration Platform",
+  "description": "Worked on and enhanced an enterprise meeting and collaboration platform, developing business modules, APIs, dashboards, integrations, security controls, performance improvements, database changes, and AI-enabled features.",
+  "tags": [
+    "C#",
+    "ASP.NET WebForms",
+    "ASP.NET Core",
+    "Web API",
+    "SQL Server",
+    "Oracle",
+    "JavaScript",
+    "jQuery",
+    "React",
+    "AI"
+  ],
+  "caseStudy": {
+    "problem": "The platform required continuous development and modernization across business workflows, APIs, dashboards, databases, integrations, security, and AI capabilities while maintaining reliability of the existing enterprise application.",
+    "approach": "Developed and enhanced application modules using C# and ASP.NET, implemented and integrated APIs, worked with SQL Server and Oracle databases, optimized dashboard and database operations, adapted SQL and stored procedures during database migration, built React-based forms and integrations, implemented authentication and session-security controls, addressed application-security findings, integrated Google Workspace capabilities, and contributed to AI chat and transcription workflows.",
+    "outcome": "Delivered new business functionality, improved application performance and reliability, strengthened application security, supported database modernization, and extended the platform with modern React and AI-powered capabilities."
+  }
+},
+    {
+      "name": "React Portal & API Form Integration",
+      "description": "Built React-based forms that call APIs, validate input, map responses into fields, and handle loading and error states.",
+      "tags": [
+        "React",
+        "JavaScript",
+        "REST API",
+        "Forms"
+      ],
+      "caseStudy": {
+        "problem": "Manual data entry and inconsistent form states can create errors and poor user experience.",
+        "approach": "Created reusable form components, added client-side validation, connected API requests, mapped response data into fields, and handled loading, empty, and failure states.",
+        "outcome": "A clearer and more maintainable frontend flow for API-driven forms and portals."
+      }
+    },
+            {
+      "name": "AI Chat & AI-Assisted Features",
+      "description": "Connected AI capabilities to application workflows through a backend service while keeping provider keys and business logic server-side.",
+      "tags": [
+        "ASP.NET Core",
+        "C#",
+        "React",
+        "AI APIs"
+      ],
+      "caseStudy": {
+        "problem": "A useful AI feature needs controlled context, safe API-key handling, validation, and predictable failure behavior.",
+        "approach": "Built a backend API that validates requests, loads approved profile or application context, calls an AI provider, handles errors, and returns a controlled response to the React UI.",
+        "outcome": "A practical AI integration pattern that can be extended with logging, rate limiting, memory, and retrieval later."
+      }
+    },
+    {
+      "name": "Graphical Password Authentication System",
+      "description": "Designed a graphical-password authentication concept where users authenticate by selecting a visual pattern or sequence instead of relying only on a traditional text password.",
+      "tags": [
+        "C#",
+        "ASP.NET",
+        "JavaScript",
+        "Authentication",
+        "Graphical Password"
+      ],
+      "caseStudy": {
+        "problem": "Traditional text passwords can be difficult to remember and are vulnerable to weak-password practices, reuse, and guessing attacks.",
+        "approach": "Implemented a visual authentication flow based on image or grid selections, validated the selected sequence on the server side, and added input validation and controlled authentication responses. The design focused on usability while keeping authentication logic and validation on the backend.",
+        "outcome": "Demonstrated an alternative authentication experience and strengthened understanding of authentication workflows, secure validation, and user-friendly login design."
+      }
+    },
+       {
+      "name": "Dashboard & Database Performance",
+      "description": "Investigated slow dashboard loading across database execution, backend processing, AJAX transfer, and frontend rendering.",
+      "tags": [
+        "SQL Server",
+        "Oracle",
+        "PL/SQL",
+        "C#",
+        "DataTables"
+      ],
+      "caseStudy": {
+        "problem": "Dashboard requests could become slow because of expensive database logic, large result sets, and frontend processing.",
+        "approach": "Added timing logs for connection opening, stored procedure execution, data filling, backend response, AJAX processing, and frontend rendering. Used the measurements to focus optimization on the actual bottleneck.",
+        "outcome": "Created a measurable troubleshooting process and improved the maintainability of performance investigations."
+      }
+    },
+    {
+      "name": "API Development & Security",
+      "description": "Strengthened backend APIs with authentication, authorization, request validation, and rate-limiting controls for repeated API and upload requests.",
+      "tags": [
+        "C#",
+        "ASP.NET",
+        "Web API",
+        "Authentication",
+        "Rate Limiting"
+      ],
+      "caseStudy": {
+        "problem": "Public or semi-public endpoints can be abused through repeated requests, missing authorization checks, or oversized and invalid input.",
+        "approach": "Added authentication and authorization checks, validated required inputs and content types, applied request throttling/rate limits, and returned controlled error responses. Sensitive configuration stayed on the server side.",
+        "outcome": "Improved API resilience and reduced the risk of abuse while keeping the implementation compatible with the existing application architecture."
+      }
+    },
+    {
+      "name": "Authentication & Account Protection",
+      "description": "Improved login security with failed-attempt tracking, account lockout, CAPTCHA controls, generic errors, and safer authentication flows.",
+      "tags": [
+        "ASP.NET",
+        "C#",
+        "Authentication",
+        "Account Lockout",
+        "Audit Logs"
+      ],
+      "caseStudy": {
+        "problem": "Repeated failed login attempts can enable password guessing and account enumeration.",
+        "approach": "Tracked failed attempts and timestamps, locked accounts after the configured threshold, handled CAPTCHA attempts, used generic responses, and recorded useful audit information without exposing whether an account exists.",
+        "outcome": "A more defensive authentication flow with better brute-force resistance and safer user feedback."
+      }
+    },
+    {
+      "name": "Session Security & Hijacking Prevention",
+      "description": "Hardened sessions and cookies to reduce session theft and reuse risks.",
+      "tags": [
+        "ASP.NET",
+        "Sessions",
+        "Cookies",
+        "IIS",
+        "Security"
+      ],
+      "caseStudy": {
+        "problem": "A stolen session identifier may allow an attacker to reuse an authenticated session.",
+        "approach": "Enabled HttpOnly, Secure, and SameSite cookie protections, regenerated the session after authentication, and added session consistency checks using request context signals such as User-Agent and IP where appropriate.",
+        "outcome": "Reduced session exposure and added detection for suspicious session changes, with server-side authorization remaining the primary control."
+      }
+    },
+    {
+      "name": "VAPT Remediation & Secure Configuration",
+      "description": "Addressed application security findings across HTTP headers, content policies, request filtering, mixed content, and input handling.",
+      "tags": [
+        "VAPT",
+        "CSP",
+        "HSTS",
+        "CORS",
+        "IIS",
+        "Web.config"
+      ],
+      "caseStudy": {
+        "problem": "Security assessments identified weaknesses in browser protections, transport configuration, request handling, and content loading.",
+        "approach": "Reviewed each finding, mapped it to the relevant application or server configuration, applied secure headers and filtering, corrected mixed-content paths, and retested behavior to avoid breaking legitimate scripts and integrations.",
+        "outcome": "Improved security posture while balancing defensive controls with application compatibility."
+      }
+    },
+ 
+    {
+      "name": "SQL Server to Oracle Adaptation",
+      "description": "Adapted database queries and stored procedures from SQL Server patterns to Oracle-compatible logic.",
+      "tags": [
+        "SQL Server",
+        "Oracle",
+        "PL/SQL",
+        "Stored Procedures"
+      ],
+      "caseStudy": {
+        "problem": "SQL Server and Oracle differ in date functions, pagination, null handling, identity generation, data types, and SQL syntax.",
+        "approach": "Converted database-specific functions and queries, validated parameter and column data types, tested date/string/number conversions, and resolved Oracle errors through focused query and schema checks.",
+        "outcome": "More reliable Oracle-compatible database logic with clearer troubleshooting patterns for future migrations."
+      }
+    },
+
+    {
+      "name": "AI Transcription Workflow",
+      "description": "Designed a controlled workflow between a meeting interface and an AI transcription interface using short-lived access tokens and heartbeat checks.",
+      "tags": [
+        "C#",
+        "ASP.NET",
+        "Python",
+        "Tokens",
+        "Heartbeat"
+      ],
+      "caseStudy": {
+        "problem": "The AI transcription experience should only remain active while the authorized meeting workflow is valid.",
+        "approach": "Generated short-lived launch tokens, tracked expiry and heartbeat information, checked parent-tab/session state, and validated access on the server before allowing continued use.",
+        "outcome": "A more controlled integration between the meeting experience and the AI transcription workflow."
+      }
+    },
+
+    {
+      "name": "Meeting Action Item Sync Service",
+      "description": "A Python service that syncs Action Item data from SQLite into an existing .NET/SQL Server schema (tblActionItem, tblStatusMaster), built to respect existing foreign-key and status-mapping rules without touching the existing .NET logic.",
+      "tags": [
+        "Python",
+        "SQL Server",
+        "pyodbc",
+        "Data Integration"
+      ],
+      "link": "",
+      "caseStudy": {
+        "problem": "Action Item data lived in SQLite, while the product's core tables (tblActionItem, tblStatusMaster) — with their foreign-key and status-mapping rules — already lived in SQL Server and were baked into existing .NET logic. New data needed to land correctly in SQL Server without touching or duplicating that logic.",
+        "approach": "Built a standalone Python service (pyodbc) split into database/repository/service layers, so mapping rules could be encoded once — e.g. resolving FinalStatus to the correct StatusId from tblStatusMaster instead of storing raw text, and mapping ATR numbers to MinutesNo rather than the unused ATRNumber field. Started against the real SQL Server schema with mock data first, so that side could be proven correct before the SQLite source was even available.",
+        "outcome": "SQL Server-side logic and mappings are built and validated against mock data; currently finalizing the unique upsert key before wiring in the live SQLite source, without needing to touch the proven SQL Server logic."
+      },
+      "hasDiagram": true
+    },
+    {
+      "name": "PL/SQL Inbox Retrieval Optimization",
+      "description": "Optimized an Oracle PL/SQL stored procedure powering inbox-folder data retrieval with access-control logic — reworking scalar function usage, consolidating CTEs, removing correlated subqueries, and cutting dead code for better performance.",
+      "tags": [
+        "Oracle",
+        "PL/SQL",
+        "Performance Tuning"
+      ],
+      "link": "",
+      "caseStudy": {
+        "problem": "A stored procedure powering inbox-folder data retrieval mixed access-control logic with data fetching and had grown slow under real usage.",
+        "approach": "Reworked scalar function calls that were being evaluated more often than necessary, consolidated repeated logic into CTEs, replaced correlated subqueries with joins, and removed dead code paths no longer reachable.",
+        "outcome": "A leaner, more maintainable procedure with the same access-control guarantees intact."
+      }
+    },
+    {
+      "name": "This Portfolio + AI Assistant",
+      "description": "A .NET Core Web API + React portfolio site with a built-in AI assistant that answers visitor questions about my background, stack, and work in natural language.",
+      "tags": [
+        ".NET Core",
+        "React",
+        "AI"
+      ],
+      "link": "",
+      "caseStudy": {
+        "problem": "A static portfolio page doesn't let a recruiter actually ask follow-up questions about my background without me being in the room.",
+        "approach": "Built a .NET Core Web API backend that grounds an LLM (via a free provider like Groq or OpenRouter) in one source-of-truth profile file, so the assistant only answers from real facts about me instead of inventing things.",
+        "outcome": "A live assistant embedded on this page that visitors can query directly, backed by an API I built rather than a third-party embed."
+      }
+    }
+  ]
+}

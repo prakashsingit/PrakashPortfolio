@@ -1,0 +1,422 @@
+==================================================
+PRAKASH SINGH - PROFESSIONAL KNOWLEDGE BASE
+==================================================
+
+ABOUT
+=====
+
+Name: Prakash Singh
+Role: Software Engineer
+Experience: 2+ years
+Location: Mumbai, India
+
+Prakash is a Software Engineer focused on building and enhancing enterprise
+web applications using C#, ASP.NET, ASP.NET Core Web API, React, JavaScript,
+SQL Server, Oracle/PLSQL, Python, and AI integrations.
+
+His primary focus is software engineering, backend/API development,
+full-stack development, database and performance engineering, AI integration,
+and secure software engineering.
+
+
+==================================================
+TECHNICAL SKILLS
+==================================================
+
+Languages:
+- C#
+- Python
+- JavaScript
+- SQL
+- PL/SQL
+
+Backend:
+- .NET Core
+- ASP.NET
+- ASP.NET Core Web API
+
+Frontend:
+- React
+- JavaScript
+- jQuery
+- HTML/CSS
+- Bootstrap
+
+Databases:
+- SQL Server
+- Oracle
+- PL/SQL
+
+Other:
+- REST APIs
+- API integration
+- Performance optimization
+- Application security
+- AI API integration
+- IIS
+- Git
+
+
+==================================================
+PROFESSIONAL EXPERIENCE
+==================================================
+
+Role:
+Software Engineer
+
+Company:
+Enterprise Meeting & Collaboration Platform
+
+Period:
+Jul 2024 - Present
+
+
+WORK EXPERIENCE
+===============
+
+- Built and enhanced enterprise web application modules using C#, ASP.NET,
+  JavaScript/jQuery, Bootstrap, and SQL Server/Oracle.
+
+- Worked with React-based forms and portals, including API integration,
+  validation, response mapping, and user-friendly error handling.
+
+- Implemented API authentication and authorization checks, request validation,
+  token handling, and protection of sensitive backend operations.
+
+- Added API and upload rate-limiting controls to reduce repeated requests
+  and abuse.
+
+- Improved authentication security through failed-login tracking, account
+  lockout, CAPTCHA-attempt handling, generic error responses, and audit-friendly
+  login information.
+
+- Worked on session-hijacking prevention using secure cookie settings,
+  session ID regeneration, SameSite, HttpOnly, Secure controls, and session
+  consistency checks.
+
+- Investigated dashboard performance by measuring database execution,
+  stored procedure processing, backend processing, AJAX processing, and
+  frontend rendering.
+
+- Worked on query and data-processing improvements based on measured
+  performance bottlenecks.
+
+- Converted and adapted SQL Server logic for Oracle, including stored
+  procedures, date handling, data-type conversions, joins, CTEs, and
+  Oracle-specific troubleshooting.
+
+- Integrated AI capabilities into application workflows and contributed
+  to AI chat and transcription experiences.
+
+- Worked on application-security remediation including security headers,
+  CSP, HSTS, CORS, mixed content, content injection, request filtering,
+  and cookie/session hardening.
+
+
+==================================================
+DESS DIGITAL MEETINGS
+==================================================
+
+Worked on an enterprise meeting and collaboration platform involving
+business workflows, dashboards, APIs, document-related workflows,
+integrations, security controls, database operations, performance
+optimization, and AI-enabled features.
+
+Major areas of work included:
+
+- Enterprise application development
+- Backend/API development
+- Database development
+- SQL Server and Oracle adaptation
+- React-based interfaces
+- Performance optimization
+- Authentication and session security
+- VAPT remediation
+- AI integrations
+- Meeting workflow enhancements
+- External integrations
+
+
+==================================================
+PROJECT: GRAPHICAL PASSWORD AUTHENTICATION
+==================================================
+
+Designed a graphical-password authentication concept where users authenticate
+by selecting a visual pattern or sequence instead of relying only on a
+traditional text password.
+
+Technologies:
+- C#
+- ASP.NET
+- JavaScript
+
+Problem:
+Traditional text passwords can be difficult to remember and can suffer from
+weak-password practices, reuse, and guessing attacks.
+
+Approach:
+Implemented a visual authentication flow based on image or grid selections,
+validated the selected sequence on the server side, and added input
+validation and controlled authentication responses.
+
+Outcome:
+Demonstrated an alternative authentication experience and strengthened
+understanding of authentication workflows and backend validation.
+
+
+==================================================
+PROJECT: AI CHAT & AI-ASSISTED FEATURES
+==================================================
+
+Connected AI capabilities to application workflows through a backend service.
+
+Technologies:
+- ASP.NET Core
+- C#
+- React
+- AI APIs
+
+The backend validates incoming requests, loads approved context, calls an
+AI provider, handles errors, and returns the response to the frontend.
+
+The design keeps provider keys and sensitive AI configuration on the server.
+
+
+==================================================
+PROJECT: AI TRANSCRIPTION WORKFLOW
+==================================================
+
+Designed a controlled workflow between a meeting interface and an AI
+transcription interface.
+
+Technologies:
+- C#
+- ASP.NET
+- Python
+- Tokens
+- Heartbeat checks
+
+The workflow used short-lived access tokens, expiry tracking, heartbeat
+information, parent-tab/session checks, and server-side validation.
+
+
+==================================================
+PROJECT: REACT PORTAL & API INTEGRATION
+==================================================
+
+Built React-based forms and portals that communicate with APIs.
+
+Areas:
+- API requests
+- Form validation
+- Response mapping
+- Loading states
+- Error handling
+- Dynamic field population
+- User-friendly frontend workflows
+
+
+==================================================
+PROJECT: DASHBOARD & DATABASE PERFORMANCE
+==================================================
+
+Investigated slow dashboard loading across database execution, backend
+processing, AJAX transfer, and frontend rendering.
+
+Approach:
+- Added timing logs
+- Measured database execution
+- Measured stored procedure processing
+- Measured backend response time
+- Measured AJAX processing
+- Measured frontend processing
+- Focused optimization on measured bottlenecks
+
+
+==================================================
+PROJECT: SQL SERVER TO ORACLE ADAPTATION
+==================================================
+
+Adapted SQL Server queries and stored procedures to Oracle-compatible logic.
+
+Areas:
+- SQL syntax conversion
+- Date handling
+- Data types
+- String and number conversion
+- Joins
+- CTEs
+- Stored procedures
+- Oracle-specific troubleshooting
+
+
+==================================================
+PROJECT: API DEVELOPMENT & SECURITY
+==================================================
+
+Strengthened backend APIs with:
+
+- Authentication
+- Authorization
+- Request validation
+- Token handling
+- API rate limiting
+- Upload rate limiting
+- Content-type validation
+- Controlled error responses
+
+
+==================================================
+PROJECT: AUTHENTICATION & ACCOUNT PROTECTION
+==================================================
+
+Worked on defensive authentication controls including:
+
+- Failed-login tracking
+- Account lockout
+- CAPTCHA-attempt handling
+- Generic authentication responses
+- Audit-friendly login information
+- Protection against account enumeration
+
+
+==================================================
+PROJECT: SESSION SECURITY
+==================================================
+
+Worked on session-security controls including:
+
+- HttpOnly cookies
+- Secure cookies
+- SameSite configuration
+- Session ID regeneration
+- Session consistency checks
+- Suspicious session-change detection
+
+
+==================================================
+PROJECT: VAPT REMEDIATION
+==================================================
+
+Worked on application-security remediation for findings involving:
+
+- CSP
+- HSTS
+- CORS
+- Mixed content
+- Content injection
+- Request filtering
+- Cookie security
+- Session security
+- Browser security headers
+
+
+==================================================
+PROJECT: MEETING ACTION ITEM SYNC SERVICE
+==================================================
+
+Built a Python service for data synchronization between systems.
+
+Technologies:
+- Python
+- SQL Server
+- pyodbc
+- Data integration
+
+The service used layered database/repository/service logic and handled
+data mapping while respecting existing database relationships and rules.
+
+
+==================================================
+PROJECT: PL/SQL INBOX RETRIEVAL OPTIMIZATION
+==================================================
+
+Optimized Oracle PL/SQL retrieval logic involving access-control processing.
+
+Areas of optimization included:
+
+- Scalar function usage
+- CTE consolidation
+- Correlated subquery removal
+- Join-based optimization
+- Dead-code removal
+- Maintainability improvements
+
+
+==================================================
+EDUCATION
+==================================================
+
+B.E. in Information Technology
+Thakur College of Engineering and Technology
+Dec 2021 - Jun 2024
+
+Diploma in Information Technology
+Thakur Polytechnic
+
+
+==================================================
+AI ASSISTANT RULES
+==================================================
+
+The assistant should answer questions about Prakash using only the
+information in this knowledge base.
+
+The assistant must not invent:
+
+- Technologies
+- Companies
+- Job titles
+- Projects
+- Responsibilities
+- Certifications
+- Achievements
+- Salary
+- Performance numbers
+- Client names
+- Confidential information
+
+When information is not available in the knowledge base, say:
+
+"I don't have that information in Prakash's portfolio knowledge base."
+
+
+==================================================
+RECRUITER POSITIONING
+==================================================
+
+Prakash should primarily be presented as a Software Engineer / .NET
+Developer / ASP.NET Core Developer with experience in:
+
+- C#
+- ASP.NET
+- ASP.NET Core Web API
+- React
+- SQL Server
+- Oracle
+- API development
+- Database optimization
+- Performance engineering
+- AI integration
+
+Application security and VAPT should be presented as an additional
+engineering strength rather than the primary career identity.
+
+
+
+==================================================
+ENGINEERING CAPABILITY
+==================================================
+
+Prakash has hands-on experience across multiple layers of application
+development, including backend development, REST APIs, React-based interfaces,
+SQL Server, Oracle/PLSQL, AI integrations, application performance, and
+application security.
+
+His documented experience demonstrates the ability to contribute across
+the stack rather than being limited to a single technical layer.
+
+For questions about independently building an entire production application,
+the portfolio demonstrates broad end-to-end technical exposure, but it should
+not claim complete independent ownership of a full production project unless
+that ownership is explicitly documented.
