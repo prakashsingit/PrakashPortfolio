@@ -59,7 +59,8 @@ export default function ChatAssistant({ open, onClose, profileName }) {
     setError(null);
 
     try {
-      const response = await fetch("/api/chat", {
+     // const response = await fetch("/api/chat", {
+      const response = await fetch("https://prakash-portfolio-api.onrender.com/api/Chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
